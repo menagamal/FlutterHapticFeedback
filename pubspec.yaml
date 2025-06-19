@@ -1,0 +1,23 @@
+name: custom_haptics_plugin
+description: A Flutter plugin for iOS custom haptic feedback using CoreHaptics.
+version: 0.0.1
+homepage:https://github.com/menagamal/FlutterHapticFeedback.git
+author: Mena Gamal menagamal2033@gmail.com
+
+flutter:
+  plugin:
+    platforms:
+      ios:
+        pluginClass: SwiftCustomHapticsPlugin
+        swiftVersion: 5.0
+
+environment:
+  sdk: '>=2.17.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

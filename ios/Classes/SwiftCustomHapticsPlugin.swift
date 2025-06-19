@@ -1,0 +1,1 @@
+// Insert SwiftCustomHapticsPlugin implementation here
